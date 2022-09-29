@@ -1,13 +1,175 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: black;
+	color: #fff;
+	line-height: 1.6;
+	overflow-x: hidden;
+}
+
+ul {
+	list-style: none;
+}
+
+header {
+	height: 90px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 25px;
+	text-decoration: wavy;
+	font-weight: 400;
+	/* background-color: red; */
+}
+
+.container {
+	max-width: 768px;
+	margin: auto;
+	padding: 0 20px;
+}
+
+.header {
+	height: 400px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* margin-bottom: 30px; */
+	/* background-color: #fafa33; */
+}
+
+.header-container {
+	background-image: url("images/batman-background-1.jpeg");
+	padding: 20px 20px;
+	padding-bottom: 200px;
+	background-size: cover;
+	background-position: center;
+}
+
+.heading-text-container {
+	margin: auto;
+	margin-top: 200px;
+	width: 60%;
+	text-align: center;
+	font-size: 25px;
+}
+
+input[type="text"] {
+	padding: 20px;
+	border: 0;
+	box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+	width: 60%;
+	margin: auto;
+	margin-bottom: 20px;
+	margin-left: 250px;
+	margin-right: 150px;
+	margin-top: 10px;
+	height: 30px;
+	border-radius: 10px;
+}
+
+.input-element {
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.sign-up {
+	margin: auto;
+}
+
+button {
+	/* remove default behavior */
+	appearance: none;
+	-webkit-appearance: none;
+
+	/* usual styles */
+	padding: 10px;
+	border: none;
+	background-color: #3f51b5;
+	color: #fff;
+	font-weight: 600;
+	border-radius: 5px;
+	width: 10%;
+	margin: auto;
+	margin-left: 50%;
+}
+.demacator {
+	height: 10px;
+	background-color: #80808080;
+}
+
+.offer-item {
+	height: 350px;
+	display: flex;
+	/* flex-direction: row; */
+	justify-content: space-between;
+	align-items: center;
+}
+
+.offer-item-text {
+	background-color: black;
+	width: 50%;
+	height: 100%;
+	margin: auto;
+	text-align: left;
+	padding-top: 10%;
+	padding-left: 50px;
+	padding-right: 20px;
+}
+.offer-item-pic {
+	/* background-color: yellow; */
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+}
+
+footer {
+	height: 400px;
+	padding-top: 60px;
+	padding-bottom: 50px;
+	padding-right: 10%;
+	padding-left: 10%;
+  /* border: 2px red solid; */
+  font-size: 12px;
+  font-weight: lighter;
+  
+}
+
+.footer-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footer-para{
+  margin-bottom: 20px;
+}
+
+.footer-column{
+  margin-right: 20px;
+  width: 20%;
+}
+
+.footer-tag {
+  margin-bottom: 20px;
 }
