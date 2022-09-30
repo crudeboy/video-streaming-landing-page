@@ -59,11 +59,18 @@ header {
 }
 
 .header-container {
-	background-image: url("images/batman-background-1.jpeg");
+	background-image: url("images/header-img-1.jpeg");
+	width: 100%;
+	height: 100%;
+	/* background-size: cover; */
+	/* object-fit: cover; */
 	padding: 20px 20px;
 	padding-bottom: 200px;
-	background-size: cover;
+	background-size: 100%;
 	background-position: center;
+}
+.header-wrapper {
+	text-align: center;
 }
 
 .heading-text-container {
@@ -81,8 +88,8 @@ input[type="text"] {
 	width: 60%;
 	margin: auto;
 	margin-bottom: 20px;
-	margin-left: 250px;
-	margin-right: 150px;
+	/* margin-left: 250px; */
+	/* margin-right: 150px; */
 	margin-top: 10px;
 	height: 30px;
 	border-radius: 10px;
@@ -95,6 +102,8 @@ input[type="text"] {
 
 .sign-up {
 	margin: auto;
+	display: flex;
+	flex-direction: column;
 }
 
 button {
@@ -111,7 +120,7 @@ button {
 	border-radius: 5px;
 	width: 10%;
 	margin: auto;
-	margin-left: 50%;
+	/* margin-left: 50%; */
 }
 .demacator {
 	height: 10px;
@@ -149,27 +158,26 @@ footer {
 	padding-bottom: 50px;
 	padding-right: 10%;
 	padding-left: 10%;
-  /* border: 2px red solid; */
-  font-size: 12px;
-  font-weight: lighter;
-  
+	/* border: 2px red solid; */
+	font-size: 12px;
+	font-weight: lighter;
 }
 
-.footer-div{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+.footer-div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 
-.footer-para{
-  margin-bottom: 20px;
+.footer-para {
+	margin-bottom: 20px;
 }
 
-.footer-column{
-  margin-right: 20px;
-  width: 20%;
+.footer-column {
+	margin-right: 20px;
+	width: 20%;
 }
 
 .footer-tag {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
